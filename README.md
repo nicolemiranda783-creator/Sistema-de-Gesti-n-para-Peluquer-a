@@ -1,50 +1,45 @@
-# Sistema-de-Gestion-para-Peluqueria
+# Sistema de Gestión para Salón de Belleza
 
-Este proyecto consiste en un sistema desarrollado en Python para la gestión básica de una peluquería. La aplicación permite registrar clientes, empleados, servicios y citas, aplicando conceptos de programación orientada a objetos.
+Este proyecto consiste en un sistema desarrollado en Python para gestionar la información básica de un salón de belleza.
 
-Objetivo del proyecto
+## Funcionalidades
 
-El objetivo principal es crear una solución sencilla que permita organizar la información principal de una peluquería, facilitando el manejo de clientes, servicios ofrecidos, empleados disponibles y citas agendadas.
+- Registrar clientes
+- Registrar empleados
+- Registrar servicios
+- Agendar citas
+- Consultar clientes
+- Consultar empleados
+- Consultar servicios
+- Consultar citas
+- Guardar y cargar datos mediante archivo JSON
 
-Conceptos aplicados
+## Conceptos aplicados
 
-En el desarrollo del proyecto se aplican los siguientes conceptos de Programación Orientada a Objetos:
+- Programación orientada a objetos
+- Clases y objetos
+- Herencia
+- Polimorfismo
+- Manejo de archivos
+- Listas
+- Menú interactivo por consola
 
-Clases y objetos
-Atributos y métodos
-Herencia
-Polimorfismo
-Encapsulamiento básico
-Manejo de archivos para guardar información
-Estructura del proyecto
-main.py: archivo principal del programa.
-clientes.json: almacena la información de los clientes registrados.
-empleados.json: almacena la información de los empleados.
-servicios.json: almacena los servicios disponibles.
-citas.json: almacena las citas agendadas.
-documentos/: contiene el análisis del proyecto.
-diagramas/: contiene los diagramas del sistema.
-capturas/: contiene evidencias del funcionamiento del programa.
-Funcionalidades principales
+## Estructura principal del sistema
 
-El sistema permite:
+El sistema cuenta con las siguientes clases:
 
-Registrar clientes.
-Registrar empleados.
-Registrar servicios.
-Agendar citas.
-Consultar información guardada.
-Mantener los datos almacenados mediante archivos.
-Cómo ejecutar el programa
-Descargar o clonar el repositorio.
-Abrir el proyecto en Visual Studio Code o cualquier editor de Python.
-Ejecutar el archivo main.py.
-Usar el menú del sistema para registrar y consultar información.
-Autor
+- Persona
+- Cliente
+- Empleado
+- Servicio
+- ServicioBasico
+- ServicioPremium
+- Cita
+- SalonBelleza
 
-Proyecto realizado por:
-Nicole Miranda
+## Ejecución
 
-Estado del repositorio
+Para ejecutar el proyecto, se debe abrir el archivo `main.py` y correrlo en Python.
 
-Este repositorio se encuentra público para su revisión académica.
+```bash
+python main.py
